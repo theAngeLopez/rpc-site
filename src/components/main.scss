@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+// Import the initial variables I'll need, might be a better way to do this
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+
+// override colors
+$blue:      #4056A1;
+$lightblue: #C5CBE3;
+$red:       #F13C20;
+$cream:     #EFE2BA;
+$yellow:    #D79922;
+$primary: $blue;
+$info:    $lightblue;
+$success: $red;
+$warning: $yellow;
+$danger:  $cream;
+
+$burgundy: #890620;
+$white-smoke: #F8F6F7;
+$cadet: #546C75;
+$teal: #249597;
+$tiger: #D78C26;
+
+// Override fonts
+$family-sans-serif:  "Roboto","Oswald",sans-serif;
+$family-primary: $family-sans-serif;
+
+.hero {
+  text-align: center;
+  h1, h2, h3 {
+    color: white;
+  }
+}
+
+.has-bg-img {
+  background: url('../images/pipes-unsplash.jpg');
+  background-size: cover;
+  width: 100%;
+}
+// Import the rest of Bulma
+@import "~bulma/bulma";
