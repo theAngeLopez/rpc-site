@@ -12,7 +12,7 @@ const IndexPage = () => (
           <div class="hero-body">
             <div class="container">
               <h1 class="title is-1">Red Plumbing Co.</h1>
-              <h2 class="subtitle">Toronto's Backflow Experts</h2>
+              <h2 class="subtitle">The GTA's Backflow Experts</h2>
               <h3 class="subtitle is-6">Done once. Done right.</h3>
             </div>
           </div>
